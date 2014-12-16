@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/brad/Coding/repos/coinbase/app/controllers/admin'
+let g:netrw_dirhist_2='/Users/brad/Coding/repos/coinbase/app/controllers/api'
+let g:netrw_dirhist_3='/Users/brad/Coding/repos/coinbase/app/controllers/concerns'
+let g:netrw_dirhist_4='/Users/brad/Coding/repos/coinbase/app/controllers/docs'
+let g:netrw_dirhist_5='/Users/brad/Coding/repos/lineman-personal/config'
