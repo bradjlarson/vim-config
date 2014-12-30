@@ -18,8 +18,9 @@ set number
 set scrolloff=4
 
 " Theme
-"set background=dark
-"let g:solarized_termcolors=256
+let g:solarized_termtrans = 1
+set background=dark
+let g:solarized_termcolors=256
 "colorscheme solarized
 
 " Status Line
@@ -29,12 +30,17 @@ set statusline+=%4*%m%* " modified flag (bold)(red/dark gray)
 set statusline+=%5*%=%5l%* " current line (bold)(cyan/dark gray)
 set statusline+=%4*/%L%* " total lines (bold)(red/dark gray)
 
+let mapleader = " "
+
 " Key Mappings
 nnoremap <F6> :wa<CR>
 nnoremap <C-left> :tabp<CR>
 nnoremap <C-right> :tabn<CR>
 nnoremap <F9> :noh<CR>
 map <C-n> :NERDTreeToggle<CR>
+
+map <Leader>h :tabp<CR>
+map <Leader>l :tabn<CR>
 
 " Custom Functions
 function Add(template)
